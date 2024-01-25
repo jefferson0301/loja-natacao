@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Natação</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    
+    <header class="cabecalho" >
+        
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__menu">
+                <label  for="menu" class="label__container__menu-hamburguer" >
+                    <span class="container__menu-hamburguer container__imagem  " ></span>
+                </label>
+                
+                <ul class="lista__menu">
+                    <li class="lista__menu__titulo" >Categoria</li>
+                    <li class="lista__menu__item" ><a class="lista__menu__item__link" href="./toca.html">Toca</a></li>
+                    <li class="lista__menu__item" ><a class="lista__menu__item__link" href="./oculos-natacao.html">Óculos Natação</a></li>
+                    <li class="lista__menu__item" ><a class="lista__menu__item__link" href="./sunga.html">Sunga</a></li>
+                    <li class="lista__menu__item" ><a class="lista__menu__item__link" href="./maio.html">Maio</a></li>
+                    <li class="lista__menu__item" ><a class="lista__menu__item__link" href="./pe-pato.html">Pé de pato</a></li>
+                    <li class="lista__menu__item" ><a class="lista__menu__item__link" href="./acessorios.html">Acessórios</a></li>
+                </ul>
+
+                
+
+                <a href="index.html"><img width="60px" height="60px" src="assets/logo-natacao.jpg" alt="Perfil Usuario"></a>
+                <ul class="lista__menu__descktop" >
+                    <li class="lista__menu__item" ><a class="lista__menu__item__descktop__link" href="./toca.html">Toca</a></li>
+                    <li class="lista__menu__item" ><a class="lista__menu__item__descktop__link" href="./oculos-natacao.html">Óculos Natação</a></li>
+                    <li class="lista__menu__item" ><a class="lista__menu__item__descktop__link" href="./sunga.html">Sunga</a></li>
+                    <li class="lista__menu__item" ><a class="lista__menu__item__descktop__link" href="./maio.html">Maio</a></li>
+                    <li class="lista__menu__item" ><a class="lista__menu__item__descktop__link" href="./pe-pato.html">Pé de pato</a></li>
+                    <li class="lista__menu__item" ><a class="lista__menu__item__descktop__link" href="./acessorios.html">Acessórios</a></li>
+                </ul>
+            </div>
+            
+            <div class="container2">
+                <a href="#"><img class="container__imagem" src="assets/Favoritos.svg" alt="Meus Favoritos"></a>
+                <a href="#"><img src="assets/Compras.svg" alt="Icone Compras"></a>
+                <a href="#"><img src="assets/Usuário.svg" alt="Perfil Usuario"></a>
+            </div>
+        
+    </header>
+
+    <section class="pesquisa">
+        <p class="pesquisa__texto">Comece a nadar! </p>
+        <p class="pesquisa__texto2">Encontre em nossa loja o que precisa para nadar! </p>
+        <input class="pesquisa__input" type="search" placeholder="O que procura?" >
+    </section>
+
+    <section class="carrousel" >
+        <h2 class="carrousel__titulo">Mais Vendidos</h2>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            
+
+             <!-- If we need pagination -->
+             <div class="swiper-pagination"></div>
+             <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+                <div class="swiper-slide"><a href="#"> <img src="./assets/oculos-natacao.jpg" alt="oculos natacao"> <p class="preco" >R$: 100,00</p> </a></div>
+                <div class="swiper-slide"><a href="#"><img src="./assets/toca-natacao.jpg" alt="Toca natação"> <p class="preco" >R$: 30,00</p> </a></div>
+                <div class="swiper-slide"> <a href="#"><img src="./assets/flutuador-natacao.jpg" alt="flutuador natacao"> <p class="preco" >R$: 120,00</p> </a> </div>
+                <div class="swiper-slide"> <a href="#"><img src="./assets/pe-pato-natacao.jpg" alt="Pé de pato natação"> <p class="preco" >R$: 200,00</p> </a> </div>
+                <div class="swiper-slide"> <a href="#"><img src="./assets/prancha-natacao.jpg" alt="prancha natacao"> <p class="preco" >R$: 30,00</p> </a> </div>
+                <div class="swiper-slide"> <a href="#"><img src="./assets/protetor-oricular-natacao.jpg" alt="Protetor oricular natação"> <p class="preco" >R$: 30,00</p> </a> </div>
+            </div>
+           
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+
+    </section>
+
+    <section class="carrousel" >
+        <h2 class="carrousel__titulo">Ultimos Lançamentos</h2>
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            
+
+             <!-- If we need pagination -->
+             <div class="swiper-pagination"></div>
+             <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+                <div class="swiper-slide"><a href="#"> <img src="./assets/oculos-natacao.jpg" alt="oculos natacao"> <p class="preco" >R$: 100,00</p> </a></div>
+                <div class="swiper-slide"><a href="#"><img src="./assets/toca2.jpg" alt="Toca natação"> <p class="preco" >R$: 35,00</p> </a></div>
+                <div class="swiper-slide"> <a href="#"><img src="./assets/flutuador2.jpg" alt="flutuador natacao"> <p class="preco" >R$: 150,00</p> </a> </div>
+                <div class="swiper-slide"> <a href="#"><img src="./assets/pe-pato2.jpg" alt="Pé de pato natação"> <p class="preco" >R$: 250,00</p> </a> </div>
+                <div class="swiper-slide"> <a href="#"><img src="./assets/prancha2.jpg" alt="prancha natacao"> <p class="preco" >R$: 40,00</p> </a> </div>
+                <div class="swiper-slide"> <a href="#"><img src="./assets/protetor2.jpg" alt="Protetor oricular natação"> <p class="preco" >R$: 35,00</p> </a> </div>
+            </div>
+           
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+
+    </section>
+
+    <footer class="cabecalho">
+        <h2 class="cabecalho__texto" >Produzido por: Jefferson Soares</h2>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        slidesPerView: 3, /*slides por visualização */
+        // speed: 400,
+        spaceBetween: 10, /*Espaço entre os slides*/
+        pagination:{/*ativar as bolinhas superiores do carrousel*/
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+        });
+    </script>
+
+</body>
+</html>

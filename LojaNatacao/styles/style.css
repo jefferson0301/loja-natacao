@@ -1,0 +1,29 @@
+@import url("./header.css");
+@import url("./pesquisa.css");
+@import url("./carrousel.css");
+@import url("./footer.css");
+@import url("./toca.css");
+@import url("./oculos-natacao.css");
+@import url("./sunga.css");
+@import url("./maio.css");
+@import url("./pe-pato.css");
+@import url("./acessorios.css");
+
+:root{
+    --azul: #63ebdd;
+    --azul-escuro: #0a4640;
+    --azul-escuro-2: #0000ff;
+    --branco: #ffffff;
+    --creme: #fffdd0;
+    --azul-fundo-pesquisa: #808080;
+    --tamanho-fonte: 1.1rem;
+    --tamanho-fonte-menu: 1.4em;
+    --tamanho-fonte-pesquisa: 1.25em;
+    --peso-fonte-menu: 700;
+}
+
+body{
+    font-size: var(--tamanho-fonte);
+    background-color: var(--creme);
+}
+

@@ -1,0 +1,11 @@
+.container__tocas__lista{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.container__tocas__lista__item__descricao{
+    text-align: center;
+}

@@ -1,0 +1,133 @@
+.cabecalho{
+    /* width: 100%; */
+    background-color: var(--azul);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative; 
+    
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+     /*justify-content: end; 
+    gap: 0.4rem;*/
+    align-items: center;
+    
+}
+
+.container2{
+    display: flex;
+    justify-content: end;
+}
+
+.container__menu{
+    display: none; 
+}
+
+.container__imagem{
+    margin: 0rem;
+}
+
+.menu{
+    width: 100%;
+}
+
+.container__menu-hamburguer{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-left: 1.5rem;
+    background-image: url("../assets/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;      
+}
+
+.lista__menu{
+    display: none;
+    background-color: var(--creme);
+    font-size: var(--tamanho-fonte-menu); 
+    font-weight: var(--peso-fonte-menu);
+    position: absolute;
+    top: 64px;
+    width: 60vh;
+    z-index: 10;
+}
+
+.lista__menu__titulo{
+    padding: 1em 0.5em;
+}
+
+.lista__menu__item{
+    padding: 1em 0.5em;
+}
+
+.lista__menu__item__link{
+    text-decoration: none;
+    /* text-transform: uppercase; */
+}
+
+.lista__menu__item:hover{
+    background-color: var(--azul);
+    
+}
+
+.lista__menu__item__link:hover{
+    color: var(--branco);
+}
+
+.container__menu:checked~.lista__menu{
+    display: block;
+}
+
+.lista__menu__descktop{
+    display: none;
+}
+
+.lista__menu__item:hover{
+    background: var(--azul);
+    color: var(--branco);
+}
+
+.lista__menu__item__descktop__link:hover{
+    color: var(--branco);
+} 
+
+
+
+@media screen and (min-width: 920px) {
+
+    /*elementos que vão sumir versões decktop e tablet*/
+    .lista__menu,
+    .container__menu,
+    .label__container__menu-hamburguer{
+        display: none;
+    }
+
+    .lista__menu__descktop{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        
+    }
+
+    .lista__menu__item{
+        margin-left: 0.3em;
+    }
+
+    
+
+
+    .lista__menu__item__descktop__link{
+        color: var(--azul-escuro-2);
+    }
+
+
+}

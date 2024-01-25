@@ -1,0 +1,40 @@
+.pesquisa{
+    background-color: var(--azul-fundo-pesquisa);
+    text-align: center;
+    padding: 2rem 0;
+    color: var(--branco);
+    
+}
+
+.pesquisa__texto{
+    font-size: var(--tamanho-fonte-pesquisa);
+    font-weight: var(--peso-fonte-menu);
+}
+
+.pesquisa__texto2{
+    padding: 0.5em 0;
+    font-size: var(--tamanho-fonte-pesquisa);
+    font-weight: var(--peso-fonte-menu);
+}
+
+.pesquisa__input{
+    width: 90%;
+    border: 3px solid;
+    border-radius: 24px;
+    font-size: var(--tamanho-fonte);
+}
+
+.pesquisa__input{
+    
+    color: var(--branco);
+    background-color: transparent;
+    padding: 0.5em;
+}
+
+.pesquisa__input::placeholder{
+    color: var(--branco);
+    text-align: center;
+    font-size: var(--tamanho-fonte-pesquisa);
+    background: url("../assets/lupa2.svg") no-repeat ;
+    background-position: 5px;
+}

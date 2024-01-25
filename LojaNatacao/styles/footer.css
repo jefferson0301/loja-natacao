@@ -1,0 +1,13 @@
+.cabecalho{
+    width: 100%;
+    background-color: var(--branco);
+    /* display: absolute;
+    position: end; */
+}
+
+.cabecalho__texto{
+    color: var(--azul);
+    padding: 2em 0;
+    font-size: 24px;
+    font-weight: 700;
+}
